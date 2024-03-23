@@ -1,4 +1,4 @@
-package com.example.mrz_scanner
+package com.example.mrz_nfc_poc
 
 import io.flutter.embedding.android.FlutterActivity
 

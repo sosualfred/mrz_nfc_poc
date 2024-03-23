@@ -1,6 +1,6 @@
 {
-    "name": "mrz_scanner",
-    "short_name": "mrz_scanner",
+    "name": "mrz_nfc_poc",
+    "short_name": "mrz_nfc_poc",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

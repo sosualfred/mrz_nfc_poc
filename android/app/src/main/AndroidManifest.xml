@@ -1,6 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
-        android:label="mrz_scanner"
+        android:label="mrz_nfc_poc"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

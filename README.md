@@ -1,4 +1,4 @@
-# mrz_scanner
+# mrz_nfc_poc
 
 A new Flutter project.
 
