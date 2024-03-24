@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:mrz_nfc_poc/camera_screen.dart';
+import 'package:mrz_nfc_poc/nfc_screen.dart';
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 
@@ -106,6 +109,15 @@ class HomeScreen extends StatelessWidget {
                 );
               },
               child: const Text('Platform Channel Screen'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const NfcScreen()),
+                );
+              },
+              child: const Text('NFC Screen'),
             ),
           ],
         ),
