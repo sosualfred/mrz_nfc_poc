@@ -33,3 +33,9 @@ This project demonstrates the following features:
 You can find the Android apks for the project in the `apks` directory.
 
 NOTE: To test on iOS, you need to run the project on Xcode.
+
+
+## Screenshots
+
+### Home Screen
+![Home Screen](screenshots/home_screen.png)
