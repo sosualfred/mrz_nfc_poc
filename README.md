@@ -1,16 +1,35 @@
 # mrz_nfc_poc
 
-A new Flutter project.
+A new Flutter project to demonstrate NFC reading, MRZ scanning, and Platform Channel communication.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project, you need to have Flutter installed on your machine. If you don't have it installed, you can follow the instructions [here](https://flutter.dev/docs/get-started/install).
 
-A few resources to get you started if this is your first Flutter project:
+Once you have Flutter installed, you can clone this repository and run the following command in the project directory:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+    flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This will install all the dependencies required for the project. Once the dependencies are installed, you can run the project using the following command:
+
+```bash
+    flutter run
+```
+
+This will run the project on the connected device or emulator.
+
+## Features
+
+This project demonstrates the following features:
+
+1. NFC Reading
+2. MRZ Scanning
+3. Platform Channel Communication
+
+## Android Apks
+
+You can find the Android apks for the project in the `apks` directory.
+
+NOTE: To test on iOS, you need to run the project on Xcode.
