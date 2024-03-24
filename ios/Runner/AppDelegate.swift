@@ -17,7 +17,7 @@ import Flutter
         result(FlutterMethodNotImplemented)
         return
       }
-      result("Hello from iOS")
+      result("Hello World from iOS")
     })
 
     GeneratedPluginRegistrant.register(with: self)

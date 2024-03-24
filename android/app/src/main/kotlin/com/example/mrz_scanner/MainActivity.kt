@@ -22,7 +22,7 @@ class MainActivity: FlutterActivity() {
             // This method is invoked on the main thread.
                 call, result ->
             if (call.method == "getPlatformHello") {
-                result.success("Hello from Android")
+                result.success("Hello World from Android")
             } else {
                 result.notImplemented()
             }
